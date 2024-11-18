@@ -1,7 +1,3 @@
-Here’s the detailed **Patient Summary Dashboard Task** tailored for a full-stack senior applicant:
-
----
-
 ### **Task: Build a Patient Summary Dashboard**
 
 ---
@@ -110,7 +106,3 @@ Develop a dashboard that provides an overview of a patient's health records, ena
 - Completeness of frontend and backend features.  
 - Secure and scalable implementation.  
 - Attention to user experience and design.  
-
----
-
-Let me know if you’d like any refinements or additional details!
