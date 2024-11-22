@@ -57,9 +57,6 @@ Develop a dashboard that provides an overview of a patient's health records, ena
    - Ensure all API requests validate input data (e.g., patient ID format).
 2. **Authentication and Authorization:**
    - Secure API endpoints with token-based authentication (e.g., JWT).
-3. **Data Security:**
-   - Encrypt sensitive patient data at rest and in transit.
-   - Ensure compliance with GDPR and HIPAA.
 
 ---
 
