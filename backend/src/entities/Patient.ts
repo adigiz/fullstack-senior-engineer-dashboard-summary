@@ -21,6 +21,9 @@ export class Patient {
   name: string;
 
   @Column()
+  avatar: string;
+  
+  @Column()
   age: number;
 
   @Column()
