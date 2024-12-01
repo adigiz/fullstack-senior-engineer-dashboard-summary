@@ -7,10 +7,12 @@ import {
   getAllergies,
   getAppointments,
 } from "../controllers/patientController";
+import { authenticate } from "../middlewares/authenticate";
+import { authorize } from "../middlewares/authorize";
 
 const router = express.Router();
 
-router.get("/", getPatients);
+router.get("/", authenticate, authorize(["admin"]), getPatients);
 router.get("/:id", getPatient);
 router.get("/:id/diagnoses", getDiagnoses);
 router.get("/:id/medications", getMedications);
