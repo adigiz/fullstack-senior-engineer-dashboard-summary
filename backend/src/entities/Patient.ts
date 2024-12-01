@@ -24,6 +24,9 @@ export class Patient {
   age: number;
 
   @Column()
+  dateOfBirth: string;
+
+  @Column()
   gender: string;
 
   @Column()
