@@ -1,5 +1,6 @@
 import express from "express";
 import { AppDataSource } from "./database";
+import patientRoutes from "./routes/patientRoutes";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -13,6 +14,7 @@ AppDataSource.initialize()
   })
   .catch((error) => console.log(error));
 
+app.use("/api/patients", patientRoutes);
 
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
